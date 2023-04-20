@@ -1,0 +1,43 @@
+<resources>
+
+    <style name="Vod">
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <style name="Vod.Grid">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="Vod.List">
+        <item name="cornerSizeTopLeft">8dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+    </style>
+
+    <style name="Player">
+        <item name="auto_show">false</item>
+        <item name="resize_mode">fit</item>
+        <item name="use_artwork">true</item>
+        <item name="use_controller">false</item>
+        <item name="animation_enabled">false</item>
+        <item name="default_artwork">@drawable/radio</item>
+    </style>
+
+    <style name="Player.Vod">
+        <item name="keep_content_on_player_reset">false</item>
+    </style>
+
+    <style name="Player.Live">
+        <item name="keep_content_on_player_reset">true</item>
+    </style>
+
+    <style name="ModalBottomSheetDialog" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/shape_bottom_sheet</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomSheetDialog" parent="Theme.MaterialComponents.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ModalBottomSheetDialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+</resources>
