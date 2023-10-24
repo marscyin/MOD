@@ -1,6 +1,5 @@
 {
-    "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./custom_spider.jar",
+    "spider": "./custom_spider.jar;md5;9cc15b83a755468e6b725667ef362a04",
     "lives": [
         {
           "name": "直播",
@@ -169,7 +168,16 @@
         //json采集接口type：1，xml采集接口type：0
         {"key":"csp_appysv2_看剧吧","name":"看剧吧(普通)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.ishen520.com/api.php/v1.vod"},
         {"key":"影图资源","name":"影图资源(官)","type":1,"api":"https://cj.vodimg.top/api.php/provide/vod/","searchable":1,"quickSearch":1},
-        {"key":"Ikun资源","name":"Ikun资源(切片)","type":0,"api":"https://ikunzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1}
+        {"key":"Ikun资源","name":"Ikun资源(切片)","type":0,"api":"https://ikunzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1},
+        {
+            "key": "应用商店",
+            "name": "应用商店",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "https://gh.011223.xyz/https://raw.githubusercontent.com/yk1n0rt/TV/release/XOB/MARS.json"
+        }
         
         
     ],
