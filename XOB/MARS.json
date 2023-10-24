@@ -1,9 +1,9 @@
 [
   {
-    "name": "推薦",
+    "name": "推荐",
     "list": [
       {
-        "url": "https://i.imgs.ovh/2023/10/19/2mfxN.jpeg",
+        "url": "https://www.bing.com",
         "icon": "https://i.imgs.ovh/2023/10/19/2mfxN.jpeg"
       }
     ]
@@ -30,7 +30,7 @@
         "name": "电视-java",
         "url": "https://gh.011223.xyz/https://raw.githubusercontent.com/yk1n0rt/TV/release/MARS/leanback-java-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "v7a"
+        "version": "003"
       },
       {
         "name": "電視-java",
@@ -56,10 +56,10 @@
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
-        "name": "手機-java",
+        "name": "手机-java",
         "url": "https://gh.011223.xyz/https://raw.githubusercontent.com/yk1n0rt/TV/release/MARS/mobile-java-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
-        "version": "v7a"
+        "version": "003"
       },
       {
         "name": "手機-java",
