@@ -28,10 +28,26 @@
     ],
     "sites": [
 
-        {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
+        
         {"key":"drpy_js_我的哔哩","name":"我的哔哩[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/我的哔哩.js"},
-        {"key":"哔哩","name":"哔哩[影视专用]","type":3,"api":"csp_Bili","ext":{"type":"网球#硬笔书法#探索发现超清#纪录片超清#动物世界超清#儿童#古典音乐#棋类#球类#公开课#经典无损音乐合集#索尼音乐中国#太极拳#白噪音4K#知名UP主#美食超清#相声小品#戏曲#说案#解说#演讲#旅游#风景4K#食谱","cookie":""}},
-
+        {"key":"哔哩","name":"哔哩[影视专用]","type":3,"api":"csp_Bili", "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },"ext":{"type":"网球#硬笔书法#探索发现超清#纪录片超清#动物世界超清#儿童#古典音乐#棋类#球类#公开课#经典无损音乐合集#索尼音乐中国#太极拳#白噪音4K#知名UP主#美食超清#相声小品#戏曲#说案#解说#演讲#旅游#风景4K#食谱","cookie":""}},
+{
+      "key": "bili_open",
+      "name": "哔哩貓",
+      "type": 3,
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "categories": "网球#硬笔书法#探索发现超清#纪录片超清#动物世界超清#儿童#古典音乐#棋类#球类#公开课#经典无损音乐合集#索尼音乐中国#太极拳#白噪音4K#知名UP主#美食超清#相声小品#戏曲#说案#解说#演讲#旅游#风景4K#食谱",
+        "cookie": ""
+      }
+    },
         {"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/drpy.js"},
         {"key":"drpy_js_奇珍异兽","name":"奇珍异兽[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/奇珍异兽.js"},
         {"key":"drpy_js_优酷","name":"优酷[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/优酷.js"},
@@ -77,25 +93,7 @@
       "changeable": 1,
       "ext": "https://fm.t4tv.hz.cz/json/douban.json"
     },
-    {
-      "key": "新6V",
-      "name": "新6V",
-      "type": 3,
-      "api": "csp_Xb6v",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "看球",
-      "name": "看球",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
+
     {
       "key": "暴風",
       "name": "暴風",
@@ -109,14 +107,6 @@
       "name": "索尼 ",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "快帆",
-      "name": "快帆",
-      "type": 1,
-      "api": "https://api.kuaifan.tv/api.php/provide/vod",
       "searchable": 1,
       "changeable": 1
     },
@@ -136,22 +126,7 @@
       "searchable": 1,
       "changeable": 1
     },
-    {
-      "key": "櫻花",
-      "name": "櫻花",
-      "type": 3,
-      "api": "csp_Ying",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "巴士",
-      "name": "巴士",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "changeable": 1
-    },
+ 
     {
       "key": "異界",
       "name": "異界",
@@ -160,44 +135,7 @@
       "searchable": 1,
       "changeable": 1
     },
-    {
-      "key": "哔哩",
-      "name": "哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "https://fm.t4tv.hz.cz/json/bili.json",
-        "type": "帕梅拉#太极拳#广场舞#演唱会",
-        "cookie": ""
-      }
-    },
-    {
-      "key": "bili_open",
-      "name": "哔哩貓",
-      "type": 3,
-      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "categories": "短剧#沙雕动画#沙雕穿越#沙雕",
-        "cookie": ""
-      }
-    },
-    {
-      "key": "酷狗",
-      "name": "酷狗",
-      "type": 3,
-      "api": "csp_Kugou",
-      "searchable": 0,
-      "changeable": 0
-    },      
-
+   
   {"key":"drpy_js_速看100[V2]","name":"影视 | 速看100[V2][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/速看100[V2].js"},
         {"key":"drpy_js_咕噜[V2]","name":"影视 | 咕噜[V2][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/咕噜[V2].js"},
         {"key":"drpy_js_cokemv[V2]","name":"影视 | cokemv[V2][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cokemv[V2].js"},
@@ -259,8 +197,16 @@
         {"key":"boosj_open","name":"童趣[cat]","type":3,"api":"./cat/boosj_open.js"},
         {"key":"tuxiaobei_open","name":"兔小贝[cat]","type":3,"api":"./cat/tuxiaobei_open.js"},
         {"key":"ubestkid_open","name":"贝乐虎[cat]","type":3,"api":"./cat/ubestkid_open.js"},
-        {"key":"drpy_js_喜马拉雅","name":"听书 | 喜马拉雅[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/喜马拉雅.js","playerType":"2"},
+       
         {"key":"drpy_js_博看听书","name":"听书 | 博看听书[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/博看听书.js","playerType":"2"},
+ {
+      "key": "酷狗",
+      "name": "酷狗",
+      "type": 3,
+      "api": "csp_Kugou",
+      "searchable": 0,
+      "changeable": 0
+    },      
 
         {"key":"drpy_js_JangoIndex","name":"音频 | JangoIndex[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/JangoIndex.js","playerType":"2"},
         {"key":"drpy_js_蜻蜓FM","name":"广播 | 蜻蜓FM[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/蜻蜓FM.js","playerType":"2"},
