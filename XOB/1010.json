@@ -27,32 +27,27 @@
         }
     ],
     "sites": [
-
-        
-        {"key":"drpy_js_我的哔哩","name":"我的哔哩[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/我的哔哩.js"},
-        {"key":"哔哩","name":"哔哩[影视专用]","type":3,"api":"csp_Bili", "searchable": 1,
+         {
+      "key": "996影院",
+      "name": "996影院",
+      "type": 3,
+      "api": "csp_Cs1369",
+      "searchable": 1,
+      "changeable": 1
+    },
+        {"key":"drpy_js_我的哔哩","name":"哔哩[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/我的哔哩.js"},
+        {"key":"哔哩","name":"哔哩","type":3,"api":"csp_Bili", "searchable": 1,
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1.433
       },"ext":{"type":"网球#硬笔书法#探索发现超清#纪录片超清#动物世界超清#儿童#古典音乐#棋类#球类#公开课#经典无损音乐合集#索尼音乐中国#太极拳#白噪音4K#知名UP主#美食超清#相声小品#戏曲#说案#解说#演讲#旅游#风景4K#食谱","cookie":""}},
-{
-      "key": "bili_open",
-      "name": "哔哩貓",
-      "type": 3,
-      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "categories": "网球#硬笔书法#探索发现超清#纪录片超清#动物世界超清#儿童#古典音乐#棋类#球类#公开课#经典无损音乐合集#索尼音乐中国#太极拳#白噪音4K#知名UP主#美食超清#相声小品#戏曲#说案#解说#演讲#旅游#风景4K#食谱",
-        "cookie": ""
-      }
-    },
-        {"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/drpy.js"},
-        {"key":"drpy_js_奇珍异兽","name":"奇珍异兽[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/奇珍异兽.js"},
-        {"key":"drpy_js_优酷","name":"优酷[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/优酷.js"},
-        {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/腾云驾雾.js"},
-        {"key":"drpy_js_百忙无果","name":"百忙无果[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/百忙无果.js"},
+
+        {"key":"drpy_js_豆瓣","name":"豆瓣推荐","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/drpy.js"},
+        {"key":"drpy_js_奇珍","name":"平安喜乐","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/奇珍异兽.js"},
+        {"key":"drpy_js_优酷","name":"小富即安","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/优酷.js"},
+        {"key":"drpy_js_腾","name":"龙行龘龘","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/腾云驾雾.js"},
+        {"key":"drpy_js_百","name":"龙行龘龘","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/百忙无果.js"},
         {
             "key": "应用商店",
             "name": "应用商店",
@@ -68,14 +63,7 @@
         {"key":"csp_AliPS","name":"📀喵狸盘搜(搜索)","type":3,"api":"csp_AliPS","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"./alitoken.txt"},
         {"key":"csp_Yisou","name":"📀易搜(搜索)","type":3,"api":"csp_Yisou","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"./alitoken.txt"},
         {"key":"csp_Upyunso","name":"📀UP云搜(搜索)","type":3,"api":"csp_Upyunso","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"./alitoken.txt"},
- {
-      "key": "996影院",
-      "name": "996影院",
-      "type": 3,
-      "api": "csp_Cs1369",
-      "searchable": 1,
-      "changeable": 1
-    },
+
     {
       "key": "短劇",
       "name": "短劇",
@@ -84,15 +72,7 @@
       "searchable": 1,
       "changeable": 0
     },
-    {
-      "key": "豆瓣",
-      "name": "豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "changeable": 1,
-      "ext": "https://fm.t4tv.hz.cz/json/douban.json"
-    },
+  
 
     {
       "key": "暴風",
@@ -207,7 +187,27 @@
       "searchable": 0,
       "changeable": 0
     },      
-
+  {
+      "key": "豆瓣",
+      "name": "豆瓣",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1,
+      "ext": "https://fm.t4tv.hz.cz/json/douban.json"
+    },
+{
+      "key": "bili_open",
+      "name": "哔哩[cat]",
+      "type": 3,
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "categories": "网球#硬笔书法#探索发现超清#纪录片超清#动物世界超清#儿童#古典音乐#棋类#球类#公开课#经典无损音乐合集#索尼音乐中国#太极拳#白噪音4K#知名UP主#美食超清#相声小品#戏曲#说案#解说#演讲#旅游#风景4K#食谱",
+        "cookie": ""
+      }
+    },
         {"key":"drpy_js_JangoIndex","name":"音频 | JangoIndex[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/JangoIndex.js","playerType":"2"},
         {"key":"drpy_js_蜻蜓FM","name":"广播 | 蜻蜓FM[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/蜻蜓FM.js","playerType":"2"},
         {"key":"drpy_js_广播迷FM","name":"广播 | 广播迷FM[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/广播迷FM.js","playerType":"2"},
@@ -237,15 +237,15 @@
         //{"name":"Json轮询","type":2,"url":"Sequence"},
         //{"name":"解析聚合","type":3,"url":"Demo"},
         //{"name":"Web聚合","type":3,"url":"Web"},
-{"name":"免费分享","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","imgo","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
-        {"name":"-咸鱼-","type":0,"url":"https://jx.xyflv.cc/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36","referer":"https://www.xyflv.cc/"}}},
-        {"name":"-虾米-","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}}},
-        {"name":"-爱酷-","type":0,"url":"https://jx.zhanlangbu.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}}},
-        {"name":"-云解析-","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
-        {"name":"-777-","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
-        {"name":"-剖云-","type":0,"url":"https://www.kkvip2022.com/vip/jiexi1/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
-        {"name":"-全看-","type":0,"url":"https://jx.quankan.app/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
-        {"name":"-爱豆-","type":0,"url":"https://jx.aidouer.net/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36","referer":"https://jiejie.uk/"}}}
+{"name":"1号","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","imgo","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
+        {"name":"2号","type":0,"url":"https://jx.xyflv.cc/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36","referer":"https://www.xyflv.cc/"}}},
+        {"name":"3号","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}}},
+        {"name":"4号","type":0,"url":"https://jx.zhanlangbu.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}}},
+        {"name":"5号","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+        {"name":"6号","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+        {"name":"7号","type":0,"url":"https://www.kkvip2022.com/vip/jiexi1/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+        {"name":"8号","type":0,"url":"https://jx.quankan.app/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+        {"name":"9号","type":0,"url":"https://jx.aidouer.net/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36","referer":"https://jiejie.uk/"}}}
         
         
     ],
